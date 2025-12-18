@@ -1,0 +1,274 @@
+# WindowsPowerSuite - Git Ignore File
+
+# =========================
+# .NET / C# / Visual Studio
+# =========================
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+TestResults/
+
+# Code coverage
+*.opencover.xml
+coverage.json
+coverage.info
+
+# =========================
+# WPF / XAML
+# =========================
+
+# XAML generated files
+*.g.cs
+*.g.i.cs
+GeneratedInternalTypeHelper.cs
+
+# =========================
+# Windows / System Files
+# =========================
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Core dumps and crash reports
+core
+*.core
+*.dmp
+*.stackdump
+
+# =========================
+# Application Specific
+# =========================
+
+# User settings
+appsettings.local.json
+appsettings.*.local.json
+usersettings.json
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# WiX build artifacts
+*.wixobj
+*.wixpdb
+
+# Installer output
+*.msi
+*.msm
+*.msp
+*.cab
+
+# =========================
+# Development Tools
+# =========================
+
+# Benchmark results
+BenchmarkDotNet.Artifacts/
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench
+.sass-cache/
+
+# Publish profiles
+*.pubxml
+*.publishproj
+
+# Package cache
+**/packages/*
+!**/packages/repositories.config
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Linux
+# =========================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =========================
+# Documentation
+# =========================
+
+# Generated documentation
+docs/_site/
+docs/.jekyll-cache/
+_site/
+
+# Sphinx documentation
+docs/_build/
+docs/.doctrees/
+
+# =========================
+# IDE Specific
+# =========================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# =========================
+# Sensitive Data
+# =========================
+
+# Secrets and credentials
+secrets.json
+*.secrets
+credentials.json
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Miscellaneous
+# =========================
+
+# Node modules (if any web tools are used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if any Python tools are used)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# =========================
+# Project Specific Ignores
+# =========================
+
+# Installer development files
+**/Installer/output/
+**/Installer/bin/
+**/Installer/obj/
+
+# Asset source files (keep compiled only)
+**/Assets/**/*.psd
+**/Assets/**/*.ai
+**/Assets/**/*.sketch
+
+# Performance test results
+**/PerformanceTests/Results/
+
+# User data directories (for testing)
+**/TestData/UserData/
+
+# =========================
+# Keep These Files
+# =========================
+
+# Keep important empty directories with .gitkeep
+!.gitkeep
+
+# Keep example configuration files
+!appsettings.example.json
+!config.example.json
