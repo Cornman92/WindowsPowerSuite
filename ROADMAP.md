@@ -409,12 +409,6 @@ This roadmap outlines the planned feature releases, strategic direction, and lon
 - Community translations
 - Language packs
 
-#### Mobile Companion
-- Android/iOS app
-- Read-only monitoring
-- Notifications
-- Remote triggers
-
 #### CLI Version
 - Command-line interface
 - Scripting support
@@ -596,13 +590,13 @@ We welcome feedback on this roadmap!
 ### Medium-Term (2027)
 1. Advanced features (cloud, remote)
 2. Enterprise adoption
-3. Expand platform support
+3. Expand Windows version support
 4. Revenue model (if needed)
 
 ### Long-Term (2028+)
 1. Market leader position
 2. Ecosystem maturity
-3. Cross-platform expansion
+3. Windows ecosystem leadership
 4. Innovation leadership
 
 ---

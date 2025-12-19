@@ -163,22 +163,6 @@ AutoTest.Net/
 !**/packages/repositories.config
 
 # =========================
-# macOS
-# =========================
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# =========================
-# Linux
-# =========================
-*~
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-
-# =========================
 # Documentation
 # =========================
 
