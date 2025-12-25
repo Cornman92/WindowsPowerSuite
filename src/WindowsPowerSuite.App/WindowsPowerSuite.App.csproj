@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <Authors>WindowsPowerSuite Contributors</Authors>
+    <Company>WindowsPowerSuite</Company>
+    <Product>WindowsPowerSuite</Product>
+    <Description>WindowsPowerSuite - Comprehensive Windows System Utility Suite</Description>
+    <Copyright>Copyright © 2025</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModernWpfUI" Version="0.9.6" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-rc2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WindowsPowerSuite.Core\WindowsPowerSuite.Core.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.SystemInfo\WindowsPowerSuite.SystemInfo.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.ProcessManager\WindowsPowerSuite.ProcessManager.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.StartupManager\WindowsPowerSuite.StartupManager.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.DiskAnalyzer\WindowsPowerSuite.DiskAnalyzer.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.ServiceManager\WindowsPowerSuite.ServiceManager.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.NetworkTools\WindowsPowerSuite.NetworkTools.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.FileShredder\WindowsPowerSuite.FileShredder.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.RegistryCleaner\WindowsPowerSuite.RegistryCleaner.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.BatchRenamer\WindowsPowerSuite.BatchRenamer.csproj" />
+    <ProjectReference Include="..\Modules\WindowsPowerSuite.Scheduler\WindowsPowerSuite.Scheduler.csproj" />
+  </ItemGroup>
+
+</Project>
